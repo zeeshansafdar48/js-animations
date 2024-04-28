@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  transition: all 0.5s ease-out 0.5s;
+}
+
+.nav-slide {
+  transform: translateY(-100%);
+}
+
+nav p {
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+
+.fade {
+  opacity: 0;
+}
+
+section {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  background-color: rgb(41, 41, 41);
+  transition: background-color 0.5s ease-out;
+}
+
+button:hover {
+  background-color: rgb(170, 101, 101);
+}
